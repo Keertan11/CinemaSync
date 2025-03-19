@@ -58,7 +58,7 @@ const Movies = () => {
 
                 {/* Main Content */}
                 <main className="relative container mx-auto px-4 md:px-6 py-32">
-                    <div className="flex items-center justify-between mb-12 gap-4 flex-col md:flex-row">
+                    <div className="flex items-center justify-around mb-12 gap-4 flex-col md:flex-row">
                         <motion.div
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
